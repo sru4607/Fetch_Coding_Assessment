@@ -1,0 +1,25 @@
+{
+  "name": "simple-fetch-assessment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.8.0",
+    "npm": "6.13.0"
+  },
+  "description": "A simple node project for the Fetch Coding Assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \" Tests complete\""
+  },
+  "author": "srunferth",
+  "license": "MIT License",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
